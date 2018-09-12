@@ -1,10 +1,12 @@
 package tim.springframework.sfgpetclinic.services.map;
 
+import org.springframework.stereotype.Service;
 import tim.springframework.sfgpetclinic.model.Owner;
 import tim.springframework.sfgpetclinic.services.OwnerService;
 
 import java.util.Set;
 
+@Service
 public class OwnerServiceMap extends AbstractMapService<Owner, Long> implements OwnerService {
 
     @Override
